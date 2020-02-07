@@ -518,7 +518,7 @@ function lightning()
 }
 
 function changeWeather(weather)
-{
+{	
 	if(weather.data) weather = weather.data;
 	reset();
 	
@@ -528,7 +528,7 @@ function changeWeather(weather)
 	TweenMax.to(summary, 1, {opacity: 0, x: -30, onComplete: updateSummaryText, ease: Power4.easeIn})
 	
 	container.addClass(weather.type);
-	weather.button.addClass('active');
+	//weather.button.addClass('active');
 	
 	// windSpeed
 	
@@ -601,4 +601,6 @@ function changeWeather(weather)
 	// lightning
 	
 	startLightningTimer();
+
+	
 }
