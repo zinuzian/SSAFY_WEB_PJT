@@ -119,7 +119,7 @@
     font-size: 22px;
     line-height: 22px;
     justify-content: space-between;
-    transition: color 2s ease;
+    transition: color 0s ease;
 }
 #card .additional .atm span  {
     font-size: 12px;
