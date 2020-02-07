@@ -58,14 +58,13 @@ var vm = new Vue({
 			this.Summary = s;
 			this.atmPressure = p;
 			this.humidity = h;
+			return $("#"+this.buttonId[s]).trigger('click');
 		},
 		getStrDate: function(date){
 			var wd = date.getDay();
 			var d = date.getDate();
 			var m = date.getMonth();
-
 			return "" + this.wday[wd] + " " + d + " " + this.months[m];
-
 		}
 	},
 	computed:{
