@@ -1,3 +1,7 @@
+
+
+
+
 // 📝 Fetch all DOM nodes in jQuery and Snap SVG
 
 var container = $('.container');
@@ -604,3 +608,5 @@ function changeWeather(weather)
 
 	
 }
+
+
