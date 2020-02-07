@@ -49,21 +49,21 @@
                         <g id="cloud1" class="cloud"></g>
                     </svg>
                     <div class="details">
-                        <div class="temp">20<span>o</span></div>
+                        <div class="temp">{{temperature}}<span>o</span></div>
                         
                         <div class="right">
-                            <div id="date">Monday 22 August</div>
-                            <div id="summary"></div>
+                            <div id="date">{{strDate}}</div>
+                            <div id="summary">{{ strSummary }}</div>
                         </div>
                         
                         
 
                     </div>
                     <div class="additional" >
-                        <div class="atm">1002<span>atm</span></div>
-                        <div class="hum">78<span>%</span></div>
+                        <div class="atm">{{atmPressure}}<span>atm</span></div>
+                        <div class="hum">{{humidity}}<span>%</span></div>
                     </div>
-                    
+                    <!-- {{changeData()}} -->
                 </div>
                 <svg id="outer"></svg>
             </div>
