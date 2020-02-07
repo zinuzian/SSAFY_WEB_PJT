@@ -7,11 +7,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
         <script src="https://codepen.io/steveg3003/pen/zBVakw"></script>
-
-
+        <script src="https://unpkg.com/vue"></script>
     </head>
     <body>
-        <div class="background">
+        <div class="background" id="app">
             <div class="container">	
                 <svg id="back">
                     <radialGradient id="SVGID_1_" cx="0" cy="0" r="320.8304" gradientUnits="userSpaceOnUse">
@@ -50,19 +49,29 @@
                         <g id="cloud1" class="cloud"></g>
                     </svg>
                     <div class="details">
-                        <div class="temp">20<span>c</span></div>
-
+                        <div class="temp">20<span>o</span></div>
+                        
                         <div class="right">
                             <div id="date">Monday 22 August</div>
                             <div id="summary"></div>
                         </div>
                         
+                        
+
                     </div>
+                    <div class="additional" >
+                        <div class="atm">1002<span>atm</span></div>
+                        <div class="hum">78<span>%</span></div>
+                    </div>
+                    
                 </div>
                 <svg id="outer"></svg>
             </div>
         </div>
+        <script src="../js/animated_weathercard_vue.js"></script>
         <script src="../js/animated_weathercard.js"></script>
+        
+        
     </body>
 </html>
 

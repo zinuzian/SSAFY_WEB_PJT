@@ -98,6 +98,45 @@
 	 vertical-align: top;
 	 margin-left: 5px;
 }
+ #card .additional {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    padding: 16px 20px;
+    height: 40px;
+    color: #888;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: color 2s ease;
+}
+ .thunder #card .additional {
+    color: #ddd;
+}
+#card .additional .atm,.hum{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    justify-content: space-between;
+    transition: color 2s ease;
+}
+#card .additional .atm span  {
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: bottom;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+#card .additional .hum span {
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: bottom;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+
  .weather {
 	 background-color: #dae3fd;
 	 transition: background-color 2s ease;
